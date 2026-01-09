@@ -1,1 +1,21 @@
-# Prime-coin-
+We are building Janus, an early-stage, open-source platform designed to give people full control over their encrypted data while providing secure, reliable, and auditable recovery options. In today’s world, losing access to accounts or encrypted data happens far too often. Passwords are forgotten, accounts are locked or banned, and devices fail. At the same time, privacy is constantly under threat, and centralizing sensitive data creates huge risks. Janus aims to solve all of this by combining shard-based recovery with zero-knowledge design, meaning the system can help recover data without ever learning the full secrets themselves.
+The platform works by splitting a user’s secret into multiple “shards,” storing them safely across trusted locations or devices. Only a threshold number of these shards is required to reconstruct the secret. This ensures that no single party ever has full access to sensitive data. Recovery actions are fully auditable, so users and administrators can track attempts and verify authenticity, without exposing private information. Beyond that, we are building tools for developers, APIs, and frontend components, making it easier for other applications to adopt secure and privacy-preserving recovery workflows.
+We are now looking for dedicated professionals who want to work with us to build Janus from the ground up. This is not a casual volunteering project — contributors will receive a percentage of equity in the project based on their role, contribution, and commitment. We want people who are passionate about privacy, security, and building something meaningful, who are willing to take real responsibility and help shape a platform that could become a global standard for secure data recovery.
+The roles we are currently looking for include:
+Cryptography Engineers who can design and implement secure shard management, zero-knowledge proofs, Shamir/MPC-based workflows, and threat-modeled cryptographic systems. Knowledge of Rust or Go and experience with unit-tested secure coding are essential.
+Backend Engineers who can build secure APIs, ephemeral token systems, audit logging, and integrations with HSM/MPC. They will make sure the recovery system is robust, scalable, and secure.
+Frontend Engineers who can create intuitive, accessible interfaces for recovery workflows, device attestation stubs, and token management states. Skills in React, TypeScript, and state management are required.
+UX/UI Designers who can design privacy-centered, clear, and user-friendly flows for recovery and consent, producing Figma prototypes that show exactly how users will interact with the system.
+Full-Stack / Integrators who are comfortable working across the stack, bridging frontend, backend, and cryptography, and ensuring everything works securely together.
+We are particularly looking for people from countries with advanced technology sectors, including Netherlands, Switzerland, Germany, France, UK, Sweden, Norway, Finland, Denmark, USA, Australia, Singapore, and other top European countries.
+If you are interested in joining Janus, please open an issue in this repository titled:
+Interested: [Role] — [GitHub username]
+and include:
+A short introduction with your location and timezone
+Links to GitHub, portfolio, or past projects
+The role you are interested in, your weekly availability, and equity expectations
+A short answer (2–3 lines) to: “Why do you want to work on Janus?”
+Your preferred tech stack and a sample project or repository we can review
+After reviewing applications, we will provide a small, role-specific task that can be completed in a few days and then schedule a 30-minute introductory call with shortlisted candidates.
+Janus is not just another tool or recovery system. It is a technically challenging, socially important, and globally relevant project. By contributing, you will help build a platform that gives people back control over their private data while learning and working with cutting-edge cryptography and secure systems. Contributors will also receive equity, giving them a real stake in the success of the project.
+We are looking for people who are serious, motivated, and ready to build something meaningful. If that sounds like you, we would love to hear from you and work together to make Janus a reality.
